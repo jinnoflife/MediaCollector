@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>Media collector</label>
+    <label lang="de">Medien Sammler</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) jinnoflifee</copyright>
+    <license>MIT</license>
+    <link>https://github.com/jinnoflife</link>
+    <author>jinnoflife</author>
+    <compatibility minVersion="5.3.0" maxVersion="5.6.0"/>
+    <description>
+        <![CDATA[
+            Provides a console command to collect all files which exists on the filesystem and are not imported to the database
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            Stellt ein Konsolenkommando bereit, welches nicht in der Datenbank vorhandene Bilder importiert
+        ]]>
+    </description>
+    <changelog version="1.0.0">
+        <changes>
+            <![CDATA[
+            <h3>VERSION: 1.0.0</h3>
+            <ul>
+                <li>Initial release</li>
+            </ul>
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            <h3>VERSION: 1.0.0</h3>
+            <ul>
+                <li>Veröffentlichung</li>
+            </ul>
+            ]]>
+        </changes>
+    </changelog>
+</plugin>

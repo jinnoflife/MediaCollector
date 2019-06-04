@@ -1,0 +1,17 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="jol_media_collcetor.collect_command"
+                 class="JolMediaCollector\Commands\MediaCollector">
+            <tag name="console.command" command="jol:media:collect"/>
+            <argument type="service" id="jol_media_collcetor.collect_service"/>
+        </service>
+        <service id="jol_media_collcetor.collect_service"
+                 class="JolMediaCollector\Services\CollectionService">
+            <argument type="service" id="models" />
+            <argument>%shopware.app.rootDir%</argument>
+        </service>
+    </services>
+</container>
