@@ -1,8 +1,9 @@
 {
   "name": "jinnoflife/media-collector",
+  "version": "0.1.0",
   "description": "Shopware plugin that allows you to collect media which is only present in the filesystem",
   "type": "shopware-plugin",
-  "license": "GNU AGPL3",
+  "license": "MIT",
   "authors": [
     {
       "name": "jinnoflife",
